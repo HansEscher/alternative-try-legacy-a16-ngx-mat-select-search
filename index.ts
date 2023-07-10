@@ -2,8 +2,8 @@ export {
     MatSelectSearchClearDirective,
     MatSelectNoEntriesFoundDirective,
     NgxMatSelectSearchModule
-} from './lib/ngx-mat-select-search.module';
+} from './dist/ngx-mat-select-search/ngx-mat-select-search.module';
 
 export {
     MatSelectSearchComponent
-} from './lib/ngx-mat-select-search.component';
+} from './dist/ngx-mat-select-search/mat-select-search.component';

@@ -8,6 +8,7 @@ import { BehaviorSubject, Observable } from 'rxjs';
 import { MatSelectSearchClearDirective } from './mat-select-search-clear.directive';
 import { MatSelectSearchOptions } from './default-options';
 import { MatSelectNoEntriesFoundDirective } from './mat-select-no-entries-found.directive';
+import * as i0 from "@angular/core";
 export declare class MatSelectSearchComponent implements OnInit, OnDestroy, ControlValueAccessor {
     matSelect: MatLegacySelect;
     private matOption;
@@ -135,4 +136,6 @@ export declare class MatSelectSearchComponent implements OnInit, OnDestroy, Cont
      */
     private getOptionsLengthOffset;
     private unselectActiveDescendant;
+    static ɵfac: i0.ɵɵFactoryDeclaration<MatSelectSearchComponent, [null, { optional: true; host: true; skipSelf: true; }, null, null, { optional: true; }, { optional: true; }]>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<MatSelectSearchComponent, "ngx-mat-select-search", never, { "placeholderLabel": { "alias": "placeholderLabel"; "required": false; }; "type": { "alias": "type"; "required": false; }; "closeIcon": { "alias": "closeIcon"; "required": false; }; "closeSvgIcon": { "alias": "closeSvgIcon"; "required": false; }; "noEntriesFoundLabel": { "alias": "noEntriesFoundLabel"; "required": false; }; "clearSearchInput": { "alias": "clearSearchInput"; "required": false; }; "searching": { "alias": "searching"; "required": false; }; "disableInitialFocus": { "alias": "disableInitialFocus"; "required": false; }; "enableClearOnEscapePressed": { "alias": "enableClearOnEscapePressed"; "required": false; }; "preventHomeEndKeyPropagation": { "alias": "preventHomeEndKeyPropagation"; "required": false; }; "disableScrollToActiveOnOptionsChanged": { "alias": "disableScrollToActiveOnOptionsChanged"; "required": false; }; "ariaLabel": { "alias": "ariaLabel"; "required": false; }; "showToggleAllCheckbox": { "alias": "showToggleAllCheckbox"; "required": false; }; "toggleAllCheckboxChecked": { "alias": "toggleAllCheckboxChecked"; "required": false; }; "toggleAllCheckboxIndeterminate": { "alias": "toggleAllCheckboxIndeterminate"; "required": false; }; "toggleAllCheckboxTooltipMessage": { "alias": "toggleAllCheckboxTooltipMessage"; "required": false; }; "toggleAllCheckboxTooltipPosition": { "alias": "toggleAllCheckboxTooltipPosition"; "required": false; }; "hideClearSearchButton": { "alias": "hideClearSearchButton"; "required": false; }; "alwaysRestoreSelectedOptionsMulti": { "alias": "alwaysRestoreSelectedOptionsMulti"; "required": false; }; }, { "toggleAll": "toggleAll"; }, ["clearIcon", "noEntriesFound"], ["[ngxMatSelectSearchClear]", ".mat-select-search-custom-header-content", "[ngxMatSelectNoEntriesFound]"], false, never>;
 }
