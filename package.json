@@ -11,7 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/HansEscher/legacy-a16-ngx-mat-select-search.git"
   },
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*",
+    "index.ts"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
