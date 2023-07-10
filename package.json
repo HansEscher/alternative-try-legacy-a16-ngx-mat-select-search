@@ -1,0 +1,30 @@
+{
+  "name": "legacy-a16-ngx-mat-select-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HansEscher/legacy-a16-ngx-mat-select-search.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HansEscher/legacy-a16-ngx-mat-select-search/issues"
+  },
+  "homepage": "https://github.com/HansEscher/legacy-a16-ngx-mat-select-search#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@angular/common": "^16.1.4",
+    "@angular/core": "^16.1.4",
+    "@angular/forms": "^16.1.4",
+    "@angular/material": "^16.1.4"
+  }
+}
