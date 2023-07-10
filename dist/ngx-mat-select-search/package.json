@@ -8,7 +8,8 @@
     "url": "git+https://github.com/HansEscher/legacy-a16-ngx-mat-select-search.git"
   },
   "files": [
-    "lib/**/*",
+    "dist/ngx-mat-select-search/**/*",
+    "src/*.*",
     "index.ts"
   ],
   "keywords": [],

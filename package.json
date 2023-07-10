@@ -13,6 +13,7 @@
   },
   "files": [
     "dist/ngx-mat-select-search/**/*",
+    "src/*.*",
     "index.ts"
   ],
   "keywords": [],
